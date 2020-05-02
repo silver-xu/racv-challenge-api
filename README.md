@@ -1,22 +1,22 @@
-# Node.js Typescript Boilerplate [![Build Status](https://travis-ci.org/silver-xu/ts-boilerplate.svg?branch=master)](https://travis-ci.org/silver-xu/ts-boilerplate) [![codecov](https://codecov.io/gh/silver-xu/ts-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/silver-xu/ts-boilerplate) [![greenkeeper](https://badges.greenkeeper.io/silver-xu/ts-boilerplate.svg?style=flat)](https://badges.greenkeeper.io/silver-xu/ts-boilerplate.svg?style=flat)
+# RACV Code Challenge [![Build Status](https://travis-ci.org/silver-xu/racv-challenge-api.svg?branch=master)](https://travis-ci.org/silver-xu/racv-challenge-api) [![codecov](https://codecov.io/gh/silver-xu/racv-challenge-api/branch/master/graph/badge.svg)](https://codecov.io/gh/silver-xu/racv-challenge-api)
 
-> Typescript boilerplate powered by ESlint, Prettier and Husky.
+> GraphQL API server for the RACV Code Challenge.
 
 ## Summary
 
-> This repo is built to start Typescript projets quickly without missing the essential development tools and build pipelines.
-
-> Please feel free to fork and use as your own project template.
+> This repository is the GraphQL API server for the RACV interview Code Challenge. It is only intended for this purpose and will be deleted straight away.
 
 ## Features
 
-- Typescript support
-- Linting with ESLint
-- Prettier Support
-- Travis CI Integration
-- Codecov Integration
-- Jest Integration
-- Linting check @ pre-commit
+- Trie based in-memory db for faster matching, searching and auto-completion
+- Inspired by the Clean Architecture
+- Integration Tests
+
+## Clone
+
+```shell
+git clone git@github.com:silver-xu/racv-challenge-api.git
+```
 
 ## Install all dependencies
 
@@ -34,6 +34,12 @@ yarn build
 
 ```
 yarn start
+```
+
+## Playground
+
+```
+http(s)://<baseUrl>:4000/graphql
 ```
 
 ## Test

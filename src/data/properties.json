@@ -1,0 +1,83 @@
+[
+  {
+    "address": "6 Tom Roberts Parade, Point Cook",
+    "suburb": "Point Cook",
+    "maxPrice": 500000,
+    "minPrice": 550000,
+    "image": "https://i2.au.reastatic.net/800x600/362086c153913a11eb983f4ebdca4c6ad671161854934df86f5851e69089bb6e/image.jpg"
+  },
+  {
+    "address": "13 May Gibbs Circle, Point Cook",
+    "suburb": "Point Cook",
+    "maxPrice": 700000,
+    "minPrice": 770000,
+    "image": "https://i2.au.reastatic.net/800x600/ebe0bb8855ec1e3481c7681d0a90fb403fc473b7012efc295f2703168dc24f61/image.jpg"
+  },
+  {
+    "address": "40 Honolulu Drive, Point Cook",
+    "suburb": "Point Cook",
+    "maxPrice": 795555,
+    "minPrice": 835555,
+    "image": "https://i2.au.reastatic.net/800x600/449af9238ea36b4d242539678816d2f97a5ff807437c38b1f22b246a32298a36/image.jpg"
+  },
+  {
+    "address": "10 Groom Court, Glen Waverley",
+    "suburb": "Glen Waverley",
+    "maxPrice": 1050000,
+    "minPrice": 1100000,
+    "image": "https://i2.au.reastatic.net/800x600/0b46d73ac0233719b70ba5a64a2818176537b68580494a7bb53309685c19036c/image.jpg"
+  },
+  {
+    "address": "2A Shirley Avenue, Glen Waverley",
+    "suburb": "Glen Waverley",
+    "subtitle": "Contact agent for private inspection",
+    "image": "https://i2.au.reastatic.net/800x600/62bf54f76d2dd8b30f29230b053df9a0791525683fb43e97bddc518bd59d2666/image.jpg"
+  },
+  {
+    "address": "1 & 2/27 Grantley Drive, Glen Waverley",
+    "suburb": "Glen Waverley",
+    "subtitle": "Contact Agent",
+    "image": "https://i2.au.reastatic.net/800x600/05180bb5929d28b10bf78bf7dea928579b4c6f036b88cd049b47fc1d56bd1730/image.jpg"
+  },
+  {
+    "address": "49 Smiths Road, Templestowe",
+    "suburb": "Templestowe",
+    "maxPrice": 1550000,
+    "minPrice": 1650000,
+    "image": "https://i2.au.reastatic.net/1000x750/5057c4cbe2568dbecabf1259a46ae2531af7a88957de05480c31d71f65c8cfc5/image.jpg"
+  },
+  {
+    "address": "10 Yarra Court, Templestowe Lower",
+    "suburb": "Templestowe Lower",
+    "maxPrice": 1050000,
+    "minPrice": 1150000,
+    "image": "https://i2.au.reastatic.net/1000x750/80cb1d91cf26650ad5968fd530915623567e18353baf009a34390635cc983130/image.jpg"
+  },
+  {
+    "address": "25 Airds Road, Templestowe Lower",
+    "suburb": "Templestowe Lower",
+    "maxPrice": 1600000,
+    "minPrice": 1750000,
+    "image": "https://i2.au.reastatic.net/1000x750/80cb1d91cf26650ad5968fd530915623567e18353baf009a34390635cc983130/image.jpg"
+  },
+  {
+    "address": "704/1 Archibald Street, Box Hill",
+    "suburb": "Box Hill",
+    "maxPrice": 460000,
+    "minPrice": 499000,
+    "image": "https://i2.au.reastatic.net/1000x750/80cb1d91cf26650ad5968fd530915623567e18353baf009a34390635cc983130/image.jpg"
+  },
+  {
+    "address": "13A Standard Avenue, Box Hill",
+    "suburb": "Box Hill",
+    "maxPrice": 1400000,
+    "minPrice": 1500000,
+    "image": "https://i2.au.reastatic.net/1000x750/593036730af1c2f081eb748425c113509151c17420688a103a3c982f6f66616a/image.jpg"
+  },
+  {
+    "address": "49 William Street, Box Hill",
+    "suburb": "Box Hill",
+    "minPrice": 1838000,
+    "image": "https://i2.au.reastatic.net/1000x750/1aa1b1d80b3fab6c3a0bf6ea28d0e9516b0467e98d99ffbd5a89adf97a065b8f/image.jpg"
+  }
+]
