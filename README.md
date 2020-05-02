@@ -1,4 +1,4 @@
-# RACV Code Challenge [![Build Status](https://travis-ci.org/silver-xu/racv-challenge-api.svg?branch=master)](https://travis-ci.org/silver-xu/racv-challenge-api) [![codecov](https://codecov.io/gh/silver-xu/racv-challenge-api/branch/master/graph/badge.svg)](https://codecov.io/gh/silver-xu/racv-challenge-api)
+# RACV Code Challenge [![Build Status](https://travis-ci.org/silver-xu/racv-challenge-api.svg?branch=master)](https://travis-ci.org/silver-xu/racv-challenge-api) [![codecov](https://codecov.io/gh/silver-xu/racv-challenge-api/branch/master/graph/badge.svg)](https://codecov.io/gh/silver-xu/racv-challenge-api) [![Known Vulnerabilities](https://snyk.io/test/github/silver-xu/racv-challenge-api/badge.svg?targetFile=package.json)](https://snyk.io/test/github/silver-xu/racv-challenge-api?targetFile=package.json)
 
 > GraphQL API server for the RACV Code Challenge.
 
