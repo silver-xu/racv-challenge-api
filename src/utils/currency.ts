@@ -1,4 +1,4 @@
-var formatter = new Intl.NumberFormat('en-US', {
+const formatter = new Intl.NumberFormat('en-US', {
   style: 'currency',
   currency: 'USD',
   useGrouping: true,
@@ -13,4 +13,4 @@ var formatter = new Intl.NumberFormat('en-US', {
  * but for simplicity of this exercise I chose to use
  * dollars
  */
-export const formatCurrency = (dollars: number) => formatter.format(dollars);
+export const formatCurrency = (dollars: number): string => formatter.format(dollars);

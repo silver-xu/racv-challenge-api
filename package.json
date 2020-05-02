@@ -1,7 +1,7 @@
 {
-  "name": "ts-boilerplate",
+  "name": "racv-challenge-api",
   "version": "1.0.0",
-  "description": "Boilerplate for typescript projects powered by eslint and prettier",
+  "description": "GraphQL API server for the RACV Code Challenge",
   "main": "index.js",
   "scripts": {
     "start": "yarn build && node dist/index",

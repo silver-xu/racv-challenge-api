@@ -1,6 +1,15 @@
 import { createTestClient } from 'apollo-server-integration-testing';
 import { apolloServer } from '../infra/apollo/server';
 import { gql } from 'apollo-server-express';
+import { Listing } from '../entities/Listing';
+import { ListingSearchResult } from '../entities/ListingSearchResult';
+
+interface QueryResult {
+  data?: {
+    getListings?: Listing[];
+    searchListings?: ListingSearchResult[];
+  };
+}
 
 describe('integration tests', () => {
   const { query } = createTestClient({
@@ -24,7 +33,7 @@ describe('integration tests', () => {
           suburb: 'Glen Waverley',
         },
       },
-    )) as any;
+    )) as QueryResult;
 
     expect(result?.data?.getListings?.length).toBeGreaterThan(0);
   });
@@ -46,7 +55,7 @@ describe('integration tests', () => {
           suburb: 'Galaxy',
         },
       },
-    )) as any;
+    )) as QueryResult;
 
     expect(result?.data?.getListings).toEqual([]);
   });
@@ -71,7 +80,7 @@ describe('integration tests', () => {
           keyword: 'box',
         },
       },
-    )) as any;
+    )) as QueryResult;
 
     expect(result?.data?.searchListings?.length).toBeGreaterThan(0);
   });

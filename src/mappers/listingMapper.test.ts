@@ -1,5 +1,5 @@
 import { mapPropertyToListing, mapSearchResultToListingSearchResult } from './listingMapper';
-import { Property, PropertySearchResult } from '../infra/database/models/Property';
+import { Property } from '../infra/database/models/Property';
 import { Listing } from '../entities/Listing';
 
 describe('listingMapper tests', () => {
