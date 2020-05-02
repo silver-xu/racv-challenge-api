@@ -4,7 +4,7 @@
 
 ## Summary
 
-> This repository is the GraphQL API server for the RACV interview Code Challenge. It is only intended for this purpose and will be deleted straight away.
+> This repository is the GraphQL API server for the RACV interview Code Challenge. It is only intended for this purpose and will be deleted straight after.
 
 ## Features
 
