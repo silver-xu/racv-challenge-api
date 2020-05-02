@@ -3,6 +3,12 @@ import { Listing } from '../entities/Listing';
 import { ListingSearchResult } from '../entities/ListingSearchResult';
 import { formatCurrency } from '../utils/currency';
 
+/**
+ * Map from a Property model to a Listing entity
+ *
+ * @param property - the property to map
+ * @returns - A Property Listing
+ */
 export const mapPropertyToListing = (property: Property): Listing => ({
   address: property.address,
   suburb: property.suburb,
@@ -14,6 +20,12 @@ export const mapPropertyToListing = (property: Property): Listing => ({
   image: property.image,
 });
 
+/**
+ * Map from a PropertySearchResult model to a ListingSearchResult entity
+ *
+ * @param searchResult - the PropertySearchResult to map
+ * @returns - A ListingSearchResult
+ */
 export const mapSearchResultToListingSearchResult = (searchResult: PropertySearchResult): ListingSearchResult => ({
   suburb: searchResult.suburb,
   listings: searchResult.properties.map((property) => mapPropertyToListing(property)),
