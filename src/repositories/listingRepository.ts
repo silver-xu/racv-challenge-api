@@ -1,4 +1,4 @@
-import { getBySuburb, searchByKeyword } from '../infra/database';
+import { database } from '../infra/database';
 import { ListingSearchResult } from '../entities/ListingSearchResult';
 import { Listing } from '../entities/Listing';
 import { mapPropertyToListing, mapSearchResultToListingSearchResult } from '../mappers/listingMapper';
@@ -10,7 +10,7 @@ import { mapPropertyToListing, mapSearchResultToListingSearchResult } from '../m
  * @returns - An array of Listing entities
  */
 export const getListingsBySuburb = (suburb: string): Listing[] => {
-  const properties = getBySuburb(suburb);
+  const properties = database.getBySuburb(suburb);
   return properties ? properties.map((property) => mapPropertyToListing(property)) : [];
 };
 
@@ -21,4 +21,4 @@ export const getListingsBySuburb = (suburb: string): Listing[] => {
  * @returns - An array of ListingSearchResult entities
  */
 export const searchListingsByKeyword = (keyword: string): ListingSearchResult[] =>
-  searchByKeyword(keyword).map((result) => mapSearchResultToListingSearchResult(result));
+  database.searchByKeyword(keyword).map((result) => mapSearchResultToListingSearchResult(result));

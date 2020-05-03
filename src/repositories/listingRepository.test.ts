@@ -1,7 +1,8 @@
-import * as database from '../infra/database';
+import { database } from '../infra/database';
 import { Property } from '../infra/database/models/Property';
 import { Listing } from '../entities/Listing';
 import { getListingsBySuburb, searchListingsByKeyword } from './listingRepository';
+
 jest.mock('../infra/database');
 
 describe('listingRepository tests', () => {
