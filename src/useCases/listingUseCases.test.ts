@@ -1,11 +1,13 @@
 import { getListings, searchListings } from '../useCases/listingUseCases';
 import * as repositories from '../repositories/listingRepository';
+import { Listing } from '../entities/Listing';
 
 jest.mock('../repositories/listingRepository');
 
 describe('listingUseCases tests', () => {
   const mockedRepositories = repositories as jest.Mocked<typeof repositories>;
-  const mockListing = {
+  const mockListing: Listing = {
+    id: 1,
     address: 'foo',
     suburb: 'bar',
     subtitle: 'foobar',

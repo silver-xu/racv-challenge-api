@@ -11,6 +11,7 @@ describe('listingRepository tests', () => {
   });
 
   const mockProperty: Property = {
+    id: 1,
     address: 'foo',
     suburb: 'bar',
     minPrice: 100,
@@ -20,6 +21,7 @@ describe('listingRepository tests', () => {
   };
 
   const mockExpectedListing: Listing = {
+    id: 1,
     address: 'foo',
     suburb: 'bar',
     subtitle: 'foobar',

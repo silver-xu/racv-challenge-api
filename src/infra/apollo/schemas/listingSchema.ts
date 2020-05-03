@@ -16,6 +16,9 @@ export const listingSchema = gql`
 
   # Listing represents a Listed property entry in the Real Estate system
   type Listing {
+    # The id of the listed property
+    id: Int!
+
     # The address of the listed property
     address: String!
 

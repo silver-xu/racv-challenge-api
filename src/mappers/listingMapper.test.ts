@@ -4,6 +4,7 @@ import { Listing } from '../entities/Listing';
 
 describe('listingMapper tests', () => {
   const mockProperty: Property = {
+    id: 1,
     address: 'foo',
     suburb: 'bar',
     minPrice: 100,
@@ -13,6 +14,7 @@ describe('listingMapper tests', () => {
   };
 
   const mockExpectedListing: Listing = {
+    id: 1,
     address: 'foo',
     suburb: 'bar',
     subtitle: 'foobar',

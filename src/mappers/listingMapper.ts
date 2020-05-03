@@ -10,6 +10,7 @@ import { formatCurrency } from '../utils/currency';
  * @returns - A Property Listing
  */
 export const mapPropertyToListing = (property: Property): Listing => ({
+  id: property.id,
   address: property.address,
   suburb: property.suburb,
   subtitle:

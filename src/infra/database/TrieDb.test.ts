@@ -10,6 +10,7 @@ describe('trieDb tests', () => {
   const trieDb = new TrieDb();
 
   const mockProperty: Property = {
+    id: 1,
     address: 'foo',
     suburb: 'bar',
     minPrice: 100,
