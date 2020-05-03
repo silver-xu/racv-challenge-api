@@ -8,7 +8,7 @@
 
 ## Features
 
-- Trie based in-memory db for faster matching, searching and auto-completion
+- Trie based in-memory db for more efficient match and search
 - Inspired by the Clean Architecture
 - Integration Tests
 
